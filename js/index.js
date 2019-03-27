@@ -155,7 +155,7 @@ var resultTxt = document.getElementById('result-wrap');
                         myWin[k] = _myWin[i];//杩欎釜浣嶇疆瀵规柟鍙兘璧�
                     }
                 }
-                resultTxt.innerHTML = '--鐩婃櫤浜斿瓙妫�--';
+                resultTxt.innerHTML = '--益智五子棋--';
                 returnAble = true;
                 backAble = false;
             }
