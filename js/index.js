@@ -117,7 +117,7 @@ var resultTxt = document.getElementById('result-wrap');
                             computerWin[k] = 6;//杩欎釜浣嶇疆瀵规柟涓嶅彲鑳借耽浜�
                             if(myWin[k] == 5){
                                 // window.alert('浣犺耽浜�');
-                                resultTxt.innerHTML = '鎭枩锛屼綘璧簡锛�';
+                                resultTxt.innerHTML = '恭喜你！赢了';
                                 over = true;
                             }
                         }
@@ -172,7 +172,7 @@ var resultTxt = document.getElementById('result-wrap');
                         computerWin[k] = 6;//杩欎釜浣嶇疆瀵规柟涓嶅彲鑳借耽
                     }
                     if(myWin[k] == 5){
-                        resultTxt.innerHTML = '鎭枩锛屼綘璧簡锛�';
+                        resultTxt.innerHTML = '恭喜你！赢了';
                         over = true;
                     }
                 }
@@ -187,7 +187,7 @@ var resultTxt = document.getElementById('result-wrap');
                         myWin[k] = 6;//杩欎釜浣嶇疆瀵规柟涓嶅彲鑳借耽
                     }
                     if(computerWin[k] == 5){
-                        resultTxt.innerHTML = 'o(鈺枴鈺�)o锛岃绠楁満璧簡锛岀户缁姞娌瑰摝锛�';
+                        resultTxt.innerHTML = '你输了！请重新开始';
                         over = true;
                     }
                 }
@@ -271,7 +271,7 @@ var resultTxt = document.getElementById('result-wrap');
                         _myWin[k] = myWin[k];
                         myWin[k] = 6;//杩欎釜浣嶇疆瀵规柟涓嶅彲鑳借耽浜�
                         if(computerWin[k] == 5){
-                            resultTxt.innerHTML = 'o(鈺枴鈺�)o锛岃绠楁満璧簡锛岀户缁姞娌瑰摝锛�';
+                            resultTxt.innerHTML = '你输了！请重新开始';
                             over = true;
                         }
                     }
